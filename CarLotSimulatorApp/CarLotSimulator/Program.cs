@@ -67,27 +67,4 @@ namespace CarLotSimulator
             //At the end iterate through the list printing each of car's Year, Make, and Model to the console
         }
     }
-    public class Car
-    {
-        public Car()
-        {
-
-        }
-        public int Year;
-        public string Make;
-        public string Model;
-        public bool isDriveable;
-        public string EngineNoise(string EngineNoise)
-        {
-            return EngineNoise;
-        }
-        public string HonkNoise(string HonkNoise)
-        {
-            return HonkNoise;
-        }
-    }
-    public class CarLot
-    {
-        public List<Car> carList = new List<Car>();
-    }
 }
